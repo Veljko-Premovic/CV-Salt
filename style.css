@@ -1,0 +1,326 @@
+/***************************TAGG SELECTORS***************/
+body {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 6.6rem;
+  margin-top: 50px;
+  color: white;
+  line-height: 2;
+  font-family: 'Clicker Script', cursive;
+}
+
+h2 {
+  font-weight: normal;
+  font-family: 'Kavivanar', cursive;
+  font-size: 170%;
+}
+
+@media only screen and (max-width:768px) {
+      h1 {
+        font-size:800%;
+
+      }
+      h2 {
+        font-size: 200%;
+      
+      }
+    }
+
+h3 {
+  font-weight: normal;
+  font-family: 'Kavivanar', cursive;
+}
+
+h5 {
+  font-family: 'Kavivanar', cursive;
+  margin-top: -10px;
+}
+
+a {
+  text-decoration: none;
+  color: #11999E;
+  font-family: 'Kavivanar', cursive;
+}
+
+p {
+  font-weight: 500;
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+/********************CLASS SELECTORS**********************/
+.nav {
+  background-color: #87c6eb;
+  text-align: right;
+  padding-top: 50px;
+}
+
+.navigation {
+  padding-right: 50px;
+  color: white;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.navigation:hover {
+  color: blue;
+}
+
+.top {
+  background-color: #87c6eb;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mnt {
+  margin: auto auto 0;
+}
+
+.programer {
+  font-size: 150%;
+  color: white;
+  margin-top: -50px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 100px;
+  opacity: 70%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  top: 450px;
+  opacity: 45%;
+}
+
+.profile {
+  margin: auto;
+  width: 50%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  line-height: 2;
+}
+
+.intro {
+  font-size: 110%;
+  font-weight: 500;
+}
+
+.short-line {
+  border: dotted 10px;
+  border-top: none;
+  width: 3%;
+  color: #e4eef5;
+}
+
+.work {
+  padding-bottom: 50px;
+  display: flex;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+
+
+
+
+}
+
+.work-heading {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.telenor {
+
+}
+
+.crayon {
+
+}
+
+.crayon-top{
+
+}
+
+.hertz {
+
+
+}
+
+.norstat {
+
+}
+
+.crayon-info {
+  padding-top: 10px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.telenor-info {
+  padding-top: 10px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.hertz-info {
+  padding-top: 10px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.norstat-info {
+  padding-top: 10px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 70px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills h3 {
+  font-weight: bold;
+}
+
+.skills-heading {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.star {
+  color: Gold;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.office-info {
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.office-pic {
+  padding-bottom: 20px;
+}
+
+.html-info {
+  font-style: italic;
+  padding-bottom: 16px;
+}
+
+.html-pic {
+  padding-bottom: 33px;
+}
+
+.piano-info {
+  font-style: italic;
+  padding-bottom: 23px;
+}
+
+.piano-pic {
+  padding-bottom: 36px;
+}
+
+.photoshop-info {
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+.photoshop-pic {
+  padding-bottom: 19px;
+}
+
+.mc-office {
+  width: 20%;
+  height: 300px;
+}
+
+.html-css {
+  width: 20%;
+  height: 300px;
+}
+
+.piano {
+  width: 20%;
+  height: 300px;
+}
+
+.photoshop {
+  width: 20%;
+  height: 300px;
+}
+
+.contact-me {
+  padding-top: 50px;
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+    line-height: 2;
+}
+
+.contact-message {
+  margin: 40px auto 80px auto;
+}
+
+.bottom-container {
+  background-color: #87c6eb;
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+.btn {
+  background: #fce5cd;
+  background: linear-gradient(#fce5cd, #87c6eb);
+  border-radius: 18px;
+  box-shadow: 0 1px #999999;
+  padding: 15px 40px;
+  color: #000000;
+  display: inline-block;
+  font: normal bold 18px/1 "Open Sans", sans-serif;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.btn:hover {
+  border: solid;
+}
+
+.btn:hover {
+  background-color: #b1cccc;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  margin: 0;
+  padding-bottom: 15px;
+  color: white;
+  padding-top: 50px;
+}
+
+.facebook {
+  color: #11999e;
+  position: relative;
+  bottom: 3px;
+}
+
+.instagram {
+  color: #11999e;
+}
+
+.github {
+  color: #11999e;
+  padding-right: 100px;
+  padding-left: 100px;
+}
